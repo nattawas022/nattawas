@@ -5,4 +5,8 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
   }
+  getGit(): string {
+    return 'git n github ';
+  }
+ 
 }
