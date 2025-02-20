@@ -14,4 +14,8 @@ export class AppController {
   getGit(): string {
     return this.appService.getGit();
   }
+  @Get('/showPostMan')
+  getPostMan(): string {
+    return this.appService.getPostman();
+  }
 }
